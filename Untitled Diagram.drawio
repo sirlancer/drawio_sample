@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-05T14:34:14.981Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36" etag="jGTLcvsSDJts74_LQL5l" version="14.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-05T14:39:27.154Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36" etag="U3nEQl0trkXvXVr3KGa_" version="14.5.3" type="github">
   <diagram id="t1n8sm9UBzz5K-oiU6O6" name="Page-1">
     <mxGraphModel dx="782" dy="469" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -166,6 +166,9 @@
         </mxCell>
         <mxCell id="qlEDuVZwkhyLDb3LtV4--59" value="4" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="qlEDuVZwkhyLDb3LtV4--55">
           <mxGeometry x="154" width="51" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="qlEDuVZwkhyLDb3LtV4--60" value="该卷积计算过程需要进行padding，计算公式为：&lt;br&gt;O&lt;sub&gt;h&lt;/sub&gt;=(i&lt;sub&gt;h&lt;/sub&gt;-k&lt;sub&gt;h&lt;/sub&gt;+2p) // s + 1&lt;br&gt;O&lt;sub&gt;h&lt;/sub&gt;为输出特征图的高度&lt;br&gt;i&lt;sub&gt;h&lt;/sub&gt;为输出特征图的高度&lt;br&gt;p为padding的数量&lt;br&gt;s为步长" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="153" y="343" width="269" height="96" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
